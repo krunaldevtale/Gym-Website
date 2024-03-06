@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    
+}
+
+.navbar-nav{
+    background-color: #000;
+}
+
+.nav_bar a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav_bar a:hover{
+    color: red;
+}
+
+.container-fluid.navbar_container, .navbar_container.container-lg, .navbar_container.container-md, .navbar_container.container-sm, .navbar_container.container-xl {
+    position: absolute;
+    z-index: 9;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 991.98px){
+.container-fluid.navbar_container, .navbar_container.container-lg, .navbar_container.container-md, .navbar_container.container-sm, .navbar_container.container-xl {
+    position: relative;
+    background: #111;
+   }
+}
+
+@media (max-width:1200px){
+    .carousel-caption h3{
+    font-size: calc(1.3rem + .6vw);
+}
+.carousel-caption h2{
+    font-size: calc(2rem + .6vw);
+}
+
+.display-4{
+    font-size: calc(1.475rem + 2.7vw);
+}
+
+}
+
+.carousel_container{
+    width: 100%;
+}
+
+.carousel-caption{
+    top: 3%;
+}
+
+.carousel-caption h3{
+    color: red;
+    font-weight: 700;
+}
+
+.carousel-caption h2{
+    font-weight: 900;
+}
+
+.carousel-item {
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
+.gym-class-box{
+    background-color: rgb(224, 17, 17);
+    padding: 90px;
+    position: relative;
+}
+
+.gym-class-box .left-img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    opacity: .2;
+}
+
+.gym-class-box .right-img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: 0;
+    opacity: .2;
+}
+
+.gym-class{
+    position: absolute;
+    top: 100%;
+    left:6.5%;
+}
+
+.Features img{
+    width: 70px;
+    height: 70px;
+}
+
+.Subscriber{
+    background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url(/img/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.Bmi_img{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(/img/carousel-1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.team .card-social{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    height: 0;
+    transition: .5s;
+    z-index: 1;
+    opacity: 0;
+
+}
+
+.team .card:hover .card-social{
+
+    top: 40%;
+    opacity: 1;
+    transition: .5s;
+}
+
+.testimonial .testimonial-img{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/img/carousel-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+}
+
+.testimonial-img .content{
+    margin-top: 120px;
+}
+
+.footer{
+     background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(/img/bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top;
+     cursor: pointer;
+}
+
+.footer .footer-list a{
+    text-decoration: none;
+}
+
+.about_img{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(/img/bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top;
+}
+
+.title{
+    height: 400px;
+    cursor: pointer;
+}
+
+.contact{
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .gym-class{
+        position: static;
+        margin-top: 50px auto;
+    }
+
+    .Subscriber{
+        height: auto;
+    }
+
+    .Bmi_img{
+        display: none;
+    }
+
+    .testimonial .testimonial-img{
+        display: none;
+    }    
+
+
+}
+
+@media (max-width:1120px){
+    .gym-class{
+        position: static;
+        margin: 50px auto;
+    }
+    .testimonial-img .content{
+    margin-top: 80px;
+}
+}
+
+@media (min-width:1120px){
+    .about-class{
+    margin-top: 270px;
+}
+}
+
+

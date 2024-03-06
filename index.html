@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+ 
+<!--NavBar Start-->    
+    <div class="container-fluid navbar_container ">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-uppercase fw-bold text-white display-2" href="#"><h1>Gymnast</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav_bar" id="navbarSupportedContent">
+                <nav class="navbar-nav ms-auto mb-2 mb-lg-0 p-4 mb-sm-0 ">
+                    <a class="nav-item nav-link active text-danger" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-item nav-link" aria-current="page" href="about.html">About Us</a>
+                    <a class="nav-item nav-link" aria-current="page" href="features.html">Our Features</a>
+                    <a class="nav-item nav-link" aria-current="page" href="class.html">Classes</a>
+                    <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-dark" href="blog.html">Blog Grid</a></li>
+                        <li><a class="dropdown-item text-dark" href="#">Blog Details</a></li>
+                    </ul>
+                    </div>
+                    <a class="nav-item nav-link" aria-current="page" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+        </nav>
+    </div>
+
+<!--Carousel Start-->  
+<!-- <div class="container-fluid carousel_container">   -->
+    <div id="carouselExample" class="carousel slide ">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="/img/carousel-1.jpg" class="w-100" alt="...">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h3 class=" display-2 fw-bold text-capitalize m-0">Gym &amp; Fitness Center</h3>
+                <h2 class="display-4 m-0 mt-2 mt-md-4 text-white text-capitalize">Best Gym In Town</h2>
+                <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">Join Us Now</a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="/img/carousel-2.jpg" class="w-100" alt="...">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h3 class=" display-2 fw-bold text-capitalize m-0">Gym &amp; Fitness Center</h3>
+                <h2 class="display-4 m-0 mt-2 mt-md-4 text-white text-capitalize">Get body in shape</h2>
+                <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">Join Us Now</a>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    <!-- </div> -->
+    </div>   
+
+<!--Gym Class Box Start-->    
+    <div class="container mb-5 gym-class">
+    <div class="row px-3">
+        <div class="col-md-6 p-0">
+            <div class="gym-class-box d-flex flex-column justify-content-center align-items-end text-end text-white py-5 px-5">
+                <img class="left-img" src="/img/six-pack.png">
+                <h1 class="display-4 mb-3 text-white fw-bold">Body Building</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur dicta repellendus magnam error nesciunt fugiat ex expedita similique officiis fuga odit, sequi corporis tempore fugit autem.</p>
+                <a href="#" class="btn btn-lg btn-outline-light mt-4 px-4">Join Now</a>
+            </div>
+        </div>
+        <div class="col-md-6 p-0">
+            <div class="gym-class-box d-flex flex-column justify-content-center align-items-start bg-dark text-start text-white py-5 px-5 ">
+                <img class="right-img" src="/img/bodybuilding.png">
+                <h1 class="display-4 mb-3 text-white fw-bold">Muscle Building</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur dicta repellendus magnam error nesciunt fugiat ex expedita similique officiis fuga odit, sequi corporis tempore fugit autem.</p>
+                <a href="#" class="btn btn-lg btn-outline-light mt-4 px-4">Join Now</a>
+            </div>
+        </div>
+    </div>
+    </div>    
+
+<!--About Start-->
+    <div class="container py-5 about-class">
+    <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6">
+            <img class="img-fluid mb-4 mb-lg-0" src="/img/about.jpg">
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <h2 class="display-4 fw-bold text-muted">10 Years Experience</h2>
+            <p>Labore vero lorem eos sed aliquy ipsum aliquy sed. Vero dolore dolore takima ipsum lorem rebum</p>
+            <div class="row py-2">
+                <div class="col-sm-6">
+                    <img class="display-2 mb-2 text-danger" src="/img/barbell (1).png" style="width: 130px; height: 130px;">
+                    <h4 class="fw-bold">Certified GYM Center</h4>
+                    <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+                </div>
+                <div class="col-sm-6">
+                    <img class="display-2 mb-2" src="/img/badge.png" style="width: 130px; height: 130px;">
+                    <h4 class="fw-bold">Award Winning</h4>
+                    <p>Ipsum sanctu dolor ipsum dolore sit et kasd duo</p>
+                </div>
+            </div>
+            <a href="#" class="btn btn-lg btn-outline-danger mt-4 px-4">Learn More</a>
+        </div>
+    </div>
+    </div>
+
+<!--Feature Start-->
+    <div class="container-fluid Features my-5">
+        <div class="row">
+            <div class="col-lg-4 p-0">
+                <div class="d-flex align-items-center text-white px-5 bg-dark" style="min-height: 300px;">
+                    <img src="/img/calendar.png" class="img-fluid display-3 me-4">
+                    <div>
+                        <h2 class="fw-bold text-capitalize">Progression</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia harum obcaecati minus quaerat cupiditate,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0">
+                <div class="d-flex align-items-center text-white px-5" style="min-height: 300px; background-color: red;">
+                    <img src="/img/dumbbell.png" class="img-fluid display-3 me-4">
+                    <div>
+                        <h2 class="fw-bold text-capitalize">Workout</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi fuga ea consectetur obcaecati minus quaerat cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0">
+                <div class="d-flex align-items-center text-white px-5 bg-dark" style="min-height: 300px;">
+                    <img src="/img/stationary-bike.png" class="img-fluid display-3 me-4">
+                    <div>
+                        <h2 class="fw-bold text-capitalize">Nutrition</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est aliquam obcaecati minus quaerat cupiditate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+<!--Gym Feature Start-->
+    <div class="container feature pt-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-danger fw-bold">Why Choose Us?</h4>
+            <h4 class="display-4 fw-bold text-muted">Benifits of Joining Our GYM</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-1.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="fw-bold">Videos Instruction</h4>
+                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima  erat tempor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-2.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="fw-bold">Training Calendar</h4>
+                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima  erat tempor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-3.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="fw-bold">Free Apps &amp; WiFi</h4>
+                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima  erat tempor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-sm-5">
+                        <img class="img-fluid mb-3 mb-sm-0" src="img/feature-4.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="fw-bold">Community Support</h4>
+                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima  erat tempor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+<!--Gym Subscriber-->
+    <div class="container-fluid my-5 py-5 text-center Subscriber">
+        <div class="d-flex flex-column justify-content-center">
+            <h4 class="display-3 text-white text-capitalize fw-bold mt-4">Subscribe Our Newsletter</h4>
+            <p class="text-white fw-bold mt-2">Subscribe and get Our latest article in our box.</p>
+            <form class="form-inline mb-4">
+                <div class="input-group justify-content-center p-0">
+                    <input class="form-control-lg" type="email" placeholder="Enter Your Email" name="email">
+                    <div class="input-group-append ms-2">
+                        <button class="btn btn-danger btn-lg" type="submit">Subscribe</button>
+                    </div>
+                </div>  
+            </form>
+        </div>
+    </div>    
+
+<!--Class TimeTable Start-->
+    <div class="container py-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class=" text-capitalize text-danger fw-bold">Class Timetable</h4>
+            <h4 class="text-capitalize display-4 fw-bold text-muted">Working Hours and Class Time</h4>
+            <div class="tab-class mt-4 mb-4">
+                <ul class="nav nav-pills d-flex justify-content-center flex-wrap ">
+                    <li class="nav-item">
+                        <a class="nav-link active bg-danger" data-bs-toggle="pill" href="#class-all">All Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" data-bs-toggle="pill" href="#class-cardio">Cardio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" data-bs-toggle="pill" href="#class-crossfit">Crossfit</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link text-danger" data-bs-toggle="pill" href="#class-powerlifting">Powerlifting</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div id="class-all" class="container tab-pane p-0 active">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-dark text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">6.00am - 8.00am</th>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="class-cardio" class="container tab-pane fade p-0">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-dark text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">6.00am - 8.00am</th>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Cardio</h5>John Deo</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td> 
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="class-crossfit" class="container tab-pane fade p-0">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-dark text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">6.00am - 8.00am</th>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Crossfit</h5>Adam Phillips</td>
+                                    <td></td> 
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Crossfit</h5>Adam Phillips</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td><h5>Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="class-powerlifting" class="container tab-pane fade p-0">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-dark text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                    <th>Sunday</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">6.00am - 8.00am</th>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">10.00am - 12.00am</th>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td> 
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                </tr>
+                                <tr>
+                                    <th class="bg-dark text-white align-middle">7.00pm - 9.00pm</th>
+                                    <td></td>
+                                    <td><h5>Cardio</h5>John Deo</td>
+                                    <td></td>
+                                    <td><h5>Crossfit</h5>Adam Phillips</td>
+                                    <td></td>
+                                    <td class="bg-danger text-white"><h5 class="text-white">Power Lifting</h5>James Alien</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+<!--Calculate BMI Start-->    
+    <div class="container-fluid bmi my-3">
+        <div class="container">
+            <div class="row px-3 align-items-center">
+                <div class="col-md-6 Bmi_img" style="height: 440px;">
+                    <div class="pr-md-3 d-none d-md-block mt-5 ">
+                        <h4 class="text-danger">Body Mass Index </h4>
+                        <h4 class="display-4 text-white fw-bold mb-4">What is BMI?</h4>
+                        <p class="m-0 text-white">Vero elitr lorem magna justo magna justo at justo est ipsum sed clita lorem dolor ipsum sed. Lorem sea lorem vero. Sanct dolor clita clita rebum kasd magna erat diam</p>
+                    </div>
+                </div>
+                <div class="col-md-6 bg-dark py-5">
+                    <div class="py-5 px-3">
+                        <h1 class="mb-4 text-white">Calculate your BMI</h1>
+                        <form> 
+                            <div class="form-row">
+                                <div class="col form-group">
+                                    <input type="text" class="form-control form-control-lg bg-secondary fw-bold text-white" placeholder="Weight (KG)">
+                                </div>
+                                <div class="col form-group">
+                                    <input type="text" class="form-control form-control-lg bg-secondary fw-bold text-white ms-2" placeholder="Height (CM)">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col form-group">
+                                    <input type="text" class="form-control form-control-lg bg-secondary fw-bold text-white" placeholder="Age">
+                                </div>
+                                <div class="col form-group">
+                                    <select class="custom-select custom-select-lg bg-secondary text-dark ms-2">
+                                        <option>Gender</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="button" class="btn btn-lg btn-block btn-dark border-light" value="Calculate Now">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Trainers Div Start-->
+    <div class="container my-5 team">
+        <div class="d-flex  flex-column text-capitalize text-center">
+            <h4 class="text-danger fw-bold">Our Trainers</h4>
+            <h4 class="text-muted fw-bold display-3">Meet Our expert trainers</h4>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <img class="card-img-top" src="img/team-1.jpg" alt="">
+                    <div class="card-social d-flex align-items-center justify-content-center">
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/></svg></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/></svg></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>            </svg></a>
+                    </div>
+                    <div class="card-body bg-dark">
+                        <h4 class="card-title text-danger">Trainer Name</h4>
+                        <p class="card-text">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <img class="card-img-top" src="img/team-2.jpg" alt="">
+                    <div class="card-social d-flex align-items-center justify-content-center">
+                       <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/></svg></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/></svg></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>            </svg></a>
+                    </div>
+                    <div class="card-body bg-dark">
+                        <h4 class="card-title text-danger">Trainer Name</h4>
+                        <p class="card-text">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <img class="card-img-top" src="img/team-3.jpg" alt="">
+                    <div class="card-social d-flex align-items-center justify-content-center">
+                       <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/></svg></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/></svg></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>            </svg></a>
+                    </div>
+                    <div class="card-body bg-dark">
+                        <h4 class="card-title text-danger">Trainer Name</h4>
+                        <p class="card-text">Trainer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="card border-0 bg-secondary text-center text-white">
+                    <img class="card-img-top" src="img/team-4.jpg" alt="">
+                    <div class="card-social d-flex align-items-center justify-content-center">
+                       <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/></svg></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/></svg></i></a>
+                        <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>            </svg></a>
+                    </div>
+                    <div class="card-body bg-dark">
+                        <h4 class="card-title text-danger">Trainer Name</h4>
+                        <p class="card-text">Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+<!--Testimonal Start-->
+    <div class="container-fluid position-relative testimonial my-5">
+        <div class="container">
+            <div class="row px-3 align-items-center">
+                <div class="col-md-6 bg-dark">
+                    <div class="d-flex align-items-center px-3" style="min-height: 450px;">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                           <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                           </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-flex align-items-center mb-4 text-white">
+                                        <img width="80" height="80" class="rounded-circle bg-dark p-2" src="img/testimonial-1.jpg" alt="Image">
+                                        <div class="ps-4">
+                                            <h4 class="text-danger">Client Name</h4>
+                                            <p class="m-0">Profession</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-text position-relative border bg-dark text-white mb-5 p-4">
+                                        Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex align-items-center mb-4 text-white">
+                                        <img width="80" height="80" class="rounded-circle bg-dark p-2" src="img/testimonial-2.jpg" alt="Image">
+                                        <div class="ps-4">
+                                            <h4 class="text-danger">Client Name</h4>
+                                            <p class="m-0">Profession</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-text position-relative border bg-dark text-white mb-5 p-4">
+                                        Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex align-items-center mb-4 text-white">
+                                        <img width="80" height="80" class="rounded-circle bg-dark p-2" src="img/testimonial-3.jpg" alt="Image">
+                                        <div class="ps-4">
+                                            <h4 class="text-danger">Client Name</h4>
+                                            <p class="m-0">Profession</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-text position-relative border bg-dark text-white mb-5 p-4">
+                                        Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolores tempor voluptua ipsum sanctus clita
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 testimonial-img">
+                    <div class="ps-md-3 d-none d-md-block content">
+                        <h4 class="text-danger fw-bold">Testimonial</h4>
+                        <h4 class="display-4 mb-4 text-white fw-bold">What Our Clients Say?</h4>
+                        <p class="m-0 text-white">Vero elitr lorem magna justo magna justo at justo est ipsum sed clita lorem dolor ipsum sed. Lorem sea lorem vero. Sanct dolor clita clita rebum kasd magna erat diam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+ 
+<!--Blog Start-->  
+    <div class="container pt-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-danger fw-bold">Our Blog</h4>
+            <h4 class="display-4 fw-bold text-muted">Latest Article From Blog</h4>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mb-5 blog-item">
+                <img class="img-fluid mb-4" src="img/blog-1.jpg" alt="Image">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="d-flex flex-column align-items-center justify-content-center rounded-circle bg-danger text-white" style="width: 80px; height: 80px;">
+                        <small>01</small>
+                        <strong class="text-uppercase m-0 text-white">Jan</strong>
+                        <small>2045</small>
+                    </div>
+                    <div class="ps-3">
+                        <h3 class="fw-bold">Lorem ipsum dolor sit amet</h3>
+                        <div class="d-flex">
+                            <small class="ms-2 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person mb-1" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/></svg> Admin</small>
+                            <small class="ms-2 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark mb-1" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg> Web Design</small>
+                            <small class="ms-2 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots-fill mb-1" viewBox="0 0 16 16">
+                            <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/></svg> 15 Comments</small>
+                        </div>
+                    </div>
+                </div>
+                <p>Eos kasd et sea labore. Et sed amet magna elitr amet, stet et amet erat nonumy labore lorem ut eos, sed ut at tempor diam no. Kasd sit ea amet lorem et sea, ipsum sed dolor dolores sed dolore eirmod vero dolor sed kasd accusam</p>
+                <a class="btn btn-outline-danger mt-2 px-3" href="">Read More <i class="fa fa-angle-right"></i></a>
+            </div>
+            <div class="col-lg-6 mb-5 blog-item">
+                <img class="img-fluid mb-4" src="img/blog-2.jpg" alt="Image">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="d-flex flex-column align-items-center justify-content-center rounded-circle bg-danger text-white" style="width: 80px; height: 80px;">
+                        <small>01</small>
+                        <strong class="text-uppercase m-0 text-white">Jan</strong>
+                        <small>2045</small>
+                    </div>
+                    <div class="ps-3">
+                        <h3 class="fw-bold">Lorem ipsum dolor sit amet</h3>
+                        <div class="d-flex">
+                            <small class="ms-2 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person mb-1" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/></svg> Admin</small>
+                            <small class="ms-2 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark mb-1" viewBox="0 0 16 16">
+                            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg> Web Design</small>
+                            <small class="ms-2 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots-fill mb-1" viewBox="0 0 16 16">
+                            <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/></svg> 15 Comments</small>
+                        </div>
+                    </div>
+                </div>
+                <p>Eos kasd et sea labore. Et sed amet magna elitr amet, stet et amet erat nonumy labore lorem ut eos, sed ut at tempor diam no. Kasd sit ea amet lorem et sea, ipsum sed dolor dolores sed dolore eirmod vero dolor sed kasd accusam</p>
+                <a class="btn btn-outline-danger mt-2 px-3" href="">Read More <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+ 
+<!--Footer Start-->    
+    <div class="footer container-fluid mt-5 py-5 px-sm-3 px-md-5 text-white">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-danger mb-4">Get In Touch</h4>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill mb-1" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/></svg> 123 Street, New York, USA</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill mb-1" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/></svg> +012 345 67890</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope mb-1" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/></svg> info@example.com</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15"/></svg></a></a>
+                    <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg></a>
+                    <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/></svg></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center ms-2 px-0" style="width: 40px; height: 40px;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/></svg></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-danger mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start footer-list">
+                    <a class="text-white mb-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret- ms-2right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>Home</a>
+                    <a class="text-white mb-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret- ms-2right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>About Us</a>
+                    <a class="text-white mb-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret- ms-2right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>Our Features</a>
+                    <a class="text-white mb-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret- ms-2right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>Classes</a>
+                    <a class="text-white" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right " viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-danger mb-4">Popular Links</h4>
+                <div class="d-flex flex-column justify-content-start footer-list">
+                    <a class="text-white mb-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret- ms-2right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>Home</a>
+                    <a class="text-white mb-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret- ms-2right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>About Us</a>
+                    <a class="text-white mb-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret- ms-2right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>Our Features</a>
+                    <a class="text-white mb-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret- ms-2right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>Classes</a>
+                    <a class="text-white" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+                    <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-danger mb-4">Opening Hours</h4>
+                <h5 class="text-white">Monday - Friday</h5>
+                <p>8.00 AM - 8.00 PM</p>
+                <h5 class="text-white">Saturday - Sunday</h5>
+                <p>2.00 PM - 8.00 PM</p>
+            </div>
+        </div>
+        <div class="container border-top border-dark pt-5">
+            <p class="m-0 text-center text-white">
+                © <a class="text-white font-weight-bold" href="#" style="text-decoration: none;">Your Site Name</a>. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+<script src="script.js"></script>
+</body>
+</html>
